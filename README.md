@@ -2,8 +2,7 @@
 
 ###  Requirement:
 
-To mannually install Kubernetes in Oracle OCI via Oracle Released Docker and Kubernetes version from [Oracle Container Registry][1]  
-Refer [official doc ][2]
+To mannually install Kubernetes in Oracle OCI via Oracle Released Docker and Kubernetes version from [Oracle Container Registry][1] Refer [official doc ][2]
 
 ###  Preparation(All Kubernetes Nodes):
 
