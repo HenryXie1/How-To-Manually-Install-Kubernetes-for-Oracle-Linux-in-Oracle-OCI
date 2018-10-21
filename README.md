@@ -1,0 +1,1 @@
+# How-To-Manually-Install-Kubernetes-for-Oracle-Linux-in-Oracle-OCI
