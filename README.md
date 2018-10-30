@@ -4,7 +4,7 @@
 
 To mannually install Kubernetes in Oracle OCI via Oracle Released Docker and Kubernetes version from [Oracle Container Registry][1] Refer [official doc ][2]
 
-Please turn off TX checksum offload if you have VM in OCI with UEK4 kernel. Refer [doc](https://www.henryxieblogs.com/2018/10/turn-off-checksum-offload-for-k8s-with.html)
+Please turn off TX checksum offload if you have VM in OCI with UEK4 kernel and Broadcomm driver. Refer [doc](https://www.henryxieblogs.com/2018/10/turn-off-checksum-offload-for-k8s-with.html)
 
 ###  Preparation(All Kubernetes Nodes):
 
