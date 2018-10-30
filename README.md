@@ -26,6 +26,7 @@ Please turn off TX checksum offload if you have VM in OCI with UEK4 kernel and B
 ###  Setting Master Node
 
 * #yum install kubeadm
+* #export KUBE_REPO_PREFIX=container-registry.oracle.com/kubernetes_developer
 * #kubeadm-setup.sh up
 
 > _.......  
