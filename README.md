@@ -75,6 +75,11 @@ kubernetes-dashboard-7df769d745-m4mgx      1/1       Running   0          2h_
 
 * #yum install kubeadm
 * export KUBE_REPO_PREFIX=container-registry.oracle.com/kubernetes_developer && kubeadm-setup.sh join 100.106.146.3:6443 --token ******* --discovery-token-ca-cert-hash sha256:*********
+* In the master node ,use kubeadm token list or kubeadm token create to get token
+* In the master node, use below to get  SHA256 CA certificate
+```
+#  openssl x509 -pubkey -in /etc/kubernetes/pki/ca.crt | openssl rsa -pubin -outform der 2>/dev/null | openssl dgst -sha256 -hex | sed 's/^.* //'
+```
 
 > _Starting to initialize worker node ..._  
 
