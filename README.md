@@ -1,5 +1,7 @@
-* [How To Add Worker Node Into Old Version Kubernetes Manually](docs/How-To-Add-Worker-Node-Into-Old-Version-Kubernetes-Manually.md)
 ## How To Manually Install Kubernetes for Oracle Linux in Oracle OCI
+
+Another related doc
+* [How To Add Worker Node Into Old Version Kubernetes Manually](docs/How-To-Add-Worker-Node-Into-Old-Version-Kubernetes-Manually.md)
 
 ###  Requirement:
 
