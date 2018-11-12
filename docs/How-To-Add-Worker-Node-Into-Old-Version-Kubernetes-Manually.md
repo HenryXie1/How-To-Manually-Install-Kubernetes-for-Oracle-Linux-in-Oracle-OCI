@@ -17,4 +17,4 @@
  * rpm -i kubeadm-1.10.5-2.0.2.el7.x86_64.rpm   kubectl-1.10.5-2.0.2.el7.x86_64.rpm  kubelet-1.10.5-2.0.2.el7.x86_64.rpm
 * Use kubeadm-setup.sh to join the new node into the cluster
  * export KUBE_REPO_PREFIX=container-registry.oracle.com/kubernetes_developer && kubeadm-setup.sh join 100.106.146.3:6443 --token ******* --discovery-token-ca-cert-hash sha256:*********
- * Refer [my previous install K8S manually doc](https://github.com/HenryXie1/How-To-Manually-Install-Kubernetes-for-Oracle-Linux-in-Oracle-OCI/blob/master/README.md#setting-worker-node) 
+ * To get or generate token and ca cert hash. Please refer [my previous install K8S manually doc](https://github.com/HenryXie1/How-To-Manually-Install-Kubernetes-for-Oracle-Linux-in-Oracle-OCI/blob/master/README.md#setting-worker-node) 
