@@ -15,6 +15,8 @@ Please turn off TX checksum offload if you have VM in OCI with UEK4 kernel and B
 * #yum update -y
 * #yum-config-manager --enable ol7_addons
 * #yum install docker-engine
+* Add proxy for docker daemon and docker containers if necessary in intranet. refer [my blog](https://www.henryxieblogs.com/2018/09/proxy-settings-for-docker-daemon-and.html)
+* Move Docker Images OS Files From Default To Different OS Location for space concern. refer [my blog](https://www.henryxieblogs.com/2018/09/how-to-move-docker-images-to-different.html)
 * #systemctl enable docker
 * #systemctl start docker
 * #docker login container-registry.oracle.com/kubernetes_developer .  We can get free account from [Oracle Container Registry][1]
