@@ -14,6 +14,8 @@
  * Go to [Oracle YUM Website](https://yum.oracle.com/repo/OracleLinux/OL7/developer/x86_64/index.html).
  * Search for old version of K8S files. ie  kubeadm-1.10.5-2.0.2.el7.x86_64.rpm   kubectl-1.10.5-2.0.2.el7.x86_64.rpm  kubelet-1.10.5-2.0.2.el7.x86_64.rpm
  * Download and upload the 3 rpms into the new worker node
+ * yum install kubernetes-cni
+ * yum install socat
  * rpm -i kubeadm-1.10.5-2.0.2.el7.x86_64.rpm   kubectl-1.10.5-2.0.2.el7.x86_64.rpm  kubelet-1.10.5-2.0.2.el7.x86_64.rpm
 * Use kubeadm-setup.sh to join the new node into the cluster
  * export KUBE_REPO_PREFIX=container-registry.oracle.com/kubernetes_developer && kubeadm-setup.sh join 100.106.146.3:6443 --token ******* --discovery-token-ca-cert-hash sha256:*********
