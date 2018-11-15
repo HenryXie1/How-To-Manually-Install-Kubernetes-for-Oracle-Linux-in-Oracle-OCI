@@ -9,7 +9,7 @@ To mannually install Kubernetes in Oracle OCI via Oracle Released Docker and Kub
 
 Please turn off TX checksum offload if you have VM in OCI with UEK4 kernel and Broadcomm driver. Refer [doc](https://www.henryxieblogs.com/2018/10/turn-off-checksum-offload-for-k8s-with.html)
 
-###  Preparation(All Kubernetes Nodes):
+###  Preparation(All Kubernetes Nodes) (set http proxy if necessary in intranet):
 
 * Assume Master nodes and worker nodes are in the same VCN. Otherwise we need to add access rules in OCI policy to let nodes communicate with each other. details in [doc][3]
 * #yum-config-manager --enable ol7_addons
