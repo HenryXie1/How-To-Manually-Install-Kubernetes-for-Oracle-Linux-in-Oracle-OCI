@@ -12,6 +12,7 @@ Please turn off TX checksum offload if you have VM in OCI with UEK4 kernel and B
 ###  Preparation(All Kubernetes Nodes) (set http proxy if necessary in intranet):
 
 * Assume Master nodes and worker nodes are in the same VCN. Otherwise we need to add access rules in OCI policy to let nodes communicate with each other. details in [doc][3]
+* #yum update -y
 * #yum-config-manager --enable ol7_addons
 * #yum install docker-engine
 * #systemctl enable docker
