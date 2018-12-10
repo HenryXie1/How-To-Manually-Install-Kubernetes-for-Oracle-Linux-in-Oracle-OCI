@@ -128,6 +128,8 @@ _NAME               STATUS    ROLES     AGE       VERSION_
 _instance-test-db2   Ready         5m        v1.10.5+2.0.2.el7_  
 _instance-test-mt2   Ready     master    3h        v1.10.5+2.0.2.el7_
 
+* admin.conf  controller-manager.conf  kubelet.conf scheduler.conf plus pki and other manifests files can be found in host /etc/kubernetes/
+
 
 
 [1]: https://container-registry.oracle.com/
